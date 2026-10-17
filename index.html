@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VetCare - Clínica Veterinaria integral. Cuidamos a tus mascotas con amor, tecnología de vanguardia y profesionales apasionados.">
+  <title>VetCare | Clínica Veterinaria & Bienestar Animal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top Emergency Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span class="emergency-badge">
+        <span class="pulse-dot"></span> Urgencias 24/7: <strong>+34 900 123 456</strong>
+      </span>
+      <span class="top-bar-info">📍 Av. de las Mascotas 42, Madrid | 🕒 Lun - Sáb: 9:00 - 20:30</span>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="VetCare Inicio">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="10" fill="#0D9488"/>
+          <path d="M18 20.5C15.1 20.5 11.5 22.4 11.5 25.5C11.5 27.4 13.1 28.5 15 28.5C16.3 28.5 17.2 28 18 28C18.8 28 19.7 28.5 21 28.5C22.9 28.5 24.5 27.4 24.5 25.5C24.5 22.4 20.9 20.5 18 20.5Z" fill="white"/>
+          <circle cx="11.5" cy="16.5" r="2.5" fill="white"/>
+          <circle cx="15.8" cy="13" r="2.5" fill="white"/>
+          <circle cx="20.2" cy="13" r="2.5" fill="white"/>
+          <circle cx="24.5" cy="16.5" r="2.5" fill="white"/>
+        </svg>
+        <span>Vet<strong>Care</strong></span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#nosotros" class="nav-link">Sobre Nosotros</a></li>
+          <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn-primary nav-cta">Agendar Cita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            <span>Medicina veterinaria con calidez humana</span>
+          </div>
+          <h1 class="hero-title">El cuidado que tu mejor amigo <span class="highlight">merece</span></h1>
+          <p class="hero-subtitle">Combinamos tecnología médica de vanguardia con un trato libre de estrés para proteger la salud y felicidad de tus mascotas en cada etapa de su vida.</p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn btn-primary btn-lg">
+              Reservar Cita Ahora
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#servicios" class="btn btn-secondary btn-lg">Ver Servicios</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">+8,500</span>
+              <span class="stat-label">Mascotas felices</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">15 Años</span>
+              <span class="stat-label">De experiencia</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">4.9 ★</span>
+              <span class="stat-label">Valoración en Google</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1000&q=85" alt="Veterinaria sonriendo mientras abraza a un perro saludable" class="hero-img">
+            <div class="floating-card card-top">
+              <div class="icon-box teal">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <div>
+                <strong>Clínica Libre de Estrés</strong>
+                <span>Certificación Fear-Free®</span>
+              </div>
+            </div>
+            <div class="floating-card card-bottom">
+              <div class="icon-box coral">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div>
+                <strong>Primera revisión gratuita</strong>
+                <span>Para cachorros adoptados</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="servicios">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Nuestros Servicios</span>
+          <h2 class="section-title">Atención integral bajo un mismo techo</h2>
+          <p class="section-desc">Contamos con especialistas y equipamiento propio para diagnosticar y tratar a tu mascota con rapidez y precisión.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path><circle cx="20" cy="10" r="2"></circle></svg>
+            </div>
+            <h3>Medicina Preventiva</h3>
+            <p>Revisiones anuales, planes de salud personalizados, control de peso y desparasitación interna y externa.</p>
+            <a href="#contacto" class="service-link">Solicitar consulta →</a>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 2 4 4"></path><path d="m17 7 3-3"></path><path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5"></path><path d="m9 11 4 4"></path><path d="m5 19-3 3"></path><path d="m14 4 6 6"></path></svg>
+            </div>
+            <h3>Vacunación y Microchip</h3>
+            <p>Calendarios de vacunación adaptados a perros, gatos y exóticos. Identificación oficial y pasaporte europeo.</p>
+            <a href="#contacto" class="service-link">Solicitar consulta →</a>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+            </div>
+            <h3>Cirugía y Diagnóstico</h3>
+            <p>Quirófano con anestesia inhalatoria, monitorización multiparamétrica, radiología digital y ecografía avanzada.</p>
+            <a href="#contacto" class="service-link">Solicitar consulta →</a>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C7 2 4 6 4 10c0 3.5 2 6.5 3 9 .5 1.5 1.5 3 2.5 3s1.5-2 2.5-2 1.5 2 2.5 2 2-1.5 2.5-3c1-2.5 3-5.5 3-9 0-4-3-8-8-8Z"></path></svg>
+            </div>
+            <h3>Odontología Veterinaria</h3>
+            <p>Limpiezas dentales por ultrasonido, extracciones y prevención de enfermedades periodontales para aliento fresco y salud.</p>
+            <a href="#contacto" class="service-link">Solicitar consulta →</a>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><path d="M8.12 8.12 12 12"></path><path d="M20 4 8.12 15.88"></path><circle cx="6" cy="18" r="3"></circle><path d="M14.8 14.8 20 20"></path></svg>
+            </div>
+            <h3>Peluquería & Dermocosmética</h3>
+            <p>Baños terapéuticos, cortes de raza y cuidado dermatológico con productos hipoalergénicos y ambiente relajante.</p>
+            <a href="#contacto" class="service-link">Solicitar consulta →</a>
+          </article>
+
+          <!-- Service 6 -->
+          <article class="service-card emergency-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3>Urgencias y Hospitalización</h3>
+            <p>Atención prioritaria 24 horas y área de hospitalización climatizada separada para perros y gatos.</p>
+            <a href="tel:+34900123456" class="service-link">Llamar urgencias →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about section-padding" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-images">
+          <div class="img-main">
+            <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=800&q=80" alt="Equipo veterinario revisando a un perro Golden Retriever" loading="lazy">
+          </div>
+          <div class="img-secondary">
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=500&q=80" alt="Gato curioso mirando a cámara" loading="lazy">
+          </div>
+          <div class="experience-badge">
+            <span class="exp-years">15+</span>
+            <span class="exp-text">Años cuidando familias multiespecie</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">Sobre Nosotros</span>
+          <h2 class="section-title">Más que veterinarios, somos amantes de los animales</h2>
+          <p class="about-lead">Fundada en 2009 por la Dra. Elena Ruiz, VetCare nació con la misión de transformar la visita al veterinario en una experiencia positiva, cálida y transparente.</p>
+          <p class="about-text">Sabemos que tu mascota es parte de tu familia. Por eso diseñamos nuestras instalaciones con salas de espera diferenciadas para perros y gatos, usamos feromonas relajantes y dedicamos al menos 30 minutos a cada consulta para escucharte sin prisas.</p>
+
+          <ul class="about-features">
+            <li>
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Instalaciones Cat-Friendly</strong>
+                <p>Consultorio exclusivo para felinos libre de olores y ruidos caninos.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Laboratorio Propio en 15 Minutos</strong>
+                <p>Analíticas sanguíneas y bioquímicas al instante para diagnósticos rápidos.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Seguimiento Post-Consulta</strong>
+                <p>Te contactamos tras cada tratamiento para comprobar la evolución de tu compañero.</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="about-cta">
+            <a href="#contacto" class="btn btn-primary">Conoce nuestra clínica</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding" id="testimonios">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Testimonios</span>
+          <h2 class="section-title">Lo que dicen las familias que confían en VetCare</h2>
+          <p class="section-desc">La tranquilidad de nuestros clientes y el bienestar de sus mascotas es nuestra mejor carta de presentación.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="testimonial-quote">"Llevé a Bruno de urgencia por una torsión gástrica y le salvaron la vida. El trato humano, la empatía con la que nos explicaron todo el proceso y el cariño hacia él fueron inolvidables."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Foto de Laura Gómez" loading="lazy">
+              <div>
+                <h4>Laura Gómez</h4>
+                <span>Humana de Bruno (Bóxer)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="testimonial-quote">"Mi gata Mishi solía estresarse muchísimo al salir de casa. En VetCare tienen consulta exclusiva para gatos con difusores relajantes y la doctora la trata con una dulzura increíble."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Foto de Carlos Mendoza" loading="lazy">
+              <div>
+                <h4>Carlos Mendoza</h4>
+                <span>Humano de Mishi (Gata Europea)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="testimonial-quote">"Excelente equipo profesional. Llevamos a nuestros dos perritos desde cachorros para sus vacunas y limpiezas dentales. Siempre puntuales, transparentes con los precios y súper atentos."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Foto de Sofía Martín" loading="lazy">
+              <div>
+                <h4>Sofía Martín</h4>
+                <span>Humana de Coco y Nala (Teckel)</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Appointment Section -->
+    <section class="contact section-padding" id="contacto">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <span class="section-tag light">Contacto y Citas</span>
+            <h2>¿Listo para cuidar la salud de tu mascota?</h2>
+            <p>Completa el formulario y te confirmaremos tu cita en menos de 2 horas laborables, o llámanos directamente si necesitas atención inmediata.</p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <h4>Dirección</h4>
+                  <p>Av. de las Mascotas 42, 28001 Madrid (Parking gratuito para clientes)</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <h4>Teléfonos</h4>
+                  <p>Citas: +34 910 234 567<br>Urgencias 24h: <strong>+34 900 123 456</strong></p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div>
+                  <h4>Horario de Consulta</h4>
+                  <p>Lunes a Viernes: 09:00 - 20:30<br>Sábados: 10:00 - 14:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form id="appointmentForm" class="contact-form" novalidate>
+              <h3>Solicitar una Cita</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="ownerName">Tu nombre completo *</label>
+                  <input type="text" id="ownerName" name="ownerName" placeholder="Ej. María Fernández" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Teléfono de contacto *</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Ej. 600 123 456" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="petName">Nombre de tu mascota *</label>
+                  <input type="text" id="petName" name="petName" placeholder="Ej. Toby" required>
+                </div>
+                <div class="form-group">
+                  <label for="species">Especie *</label>
+                  <select id="species" name="species" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="Perro">Perro 🐶</option>
+                    <option value="Gato">Gato 🐱</option>
+                    <option value="Exótico">Exótico (Conejo, Ave, etc.) 🐰</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="service">Motivo de la cita *</label>
+                  <select id="service" name="service" required>
+                    <option value="" disabled selected>Selecciona el servicio</option>
+                    <option value="Consulta General">Consulta General / Revisión</option>
+                    <option value="Vacunación">Vacunación / Desparasitación</option>
+                    <option value="Especialidad">Diagnóstico / Cirugía</option>
+                    <option value="Odontología">Odontología</option>
+                    <option value="Peluquería">Peluquería y Baño</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="date">Fecha preferida *</label>
+                  <input type="date" id="date" name="date" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Comentarios adicionales (opcional)</label>
+                <textarea id="message" name="message" rows="3" placeholder="Cuéntanos si tiene algún síntoma o preferencia de horario (mañana/tarde)..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                Confirmar Solicitud de Cita
+              </button>
+
+              <div id="formFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo footer-logo">
+            <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="36" height="36" rx="10" fill="#0D9488"/>
+              <path d="M18 20.5C15.1 20.5 11.5 22.4 11.5 25.5C11.5 27.4 13.1 28.5 15 28.5C16.3 28.5 17.2 28 18 28C18.8 28 19.7 28.5 21 28.5C22.9 28.5 24.5 27.4 24.5 25.5C24.5 22.4 20.9 20.5 18 20.5Z" fill="white"/>
+              <circle cx="11.5" cy="16.5" r="2.5" fill="white"/>
+              <circle cx="15.8" cy="13" r="2.5" fill="white"/>
+              <circle cx="20.2" cy="13" r="2.5" fill="white"/>
+              <circle cx="24.5" cy="16.5" r="2.5" fill="white"/>
+            </svg>
+            <span>Vet<strong>Care</strong></span>
+          </a>
+          <p>Dedicados al bienestar, prevención y salud integral de tus mascotas con amor y excelencia médica.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Pedir Cita</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Especialidades</h4>
+          <ul>
+            <li><a href="#servicios">Medicina Preventiva</a></li>
+            <li><a href="#servicios">Clínica Felina</a></li>
+            <li><a href="#servicios">Cirugía Tejidos Blandos</a></li>
+            <li><a href="#servicios">Ecografía y Rayos X</a></li>
+            <li><a href="#servicios">Urgencias 24 Horas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Consejos de Salud Animal</h4>
+          <p>Recibe guías mensuales de nutrición y prevención para tu mascota.</p>
+          <form id="newsletterForm" class="newsletter-form">
+            <input type="email" placeholder="Tu correo electrónico" required aria-label="Tu correo electrónico">
+            <button type="submit" class="btn btn-primary">Suscribir</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2025</span> VetCare Clínica Veterinaria. Todos los derechos reservados.</p>
+        <div class="legal-links">
+          <a href="#">Aviso Legal</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
